@@ -12,25 +12,42 @@ El jar de la base de datos(H2) se encuentra en la carpeta raíz del proyecto en 
 
 messages.properties
 
-#JDBC Connection
+-JDBC Connection
+
+
 JDBC_CONNECTION = jdbc:h2:~/test
+
+
 JDBC_USER = user
+
 JDBC_PASSWORD = password
+
 JDBC_USER_NAME = sa
+
 JDBC_PASSWORD_VALUE =
 
 
 #File Configuration
+
 FILE_FOLDER = log/
+
 FILE_NAME = logFile
+
 FILE_EXTENSION = .txt
 
 #Enable/Disable logging (Enable = TRUE, Disable = FALSE)
+
 E_D_MESSAGE = TRUE
+
 E_D_WARNING = TRUE
+
 E_D_ERROR = TRUE
 
 #Message type
+
 MESSAGE_TYPE_INFO = [MESSAGE]
+
 MESSAGE_TYPE_WARNING = [WARNING]
+
 MESSAGE_TYPE_ERROR = [ERROR]
+
