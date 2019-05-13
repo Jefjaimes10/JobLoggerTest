@@ -12,7 +12,7 @@ El jar de la base de datos(H2) se encuentra en la carpeta raíz del proyecto en 
 
 messages.properties
 
--JDBC Connection
+#JDBC Connection
 
 
 JDBC_CONNECTION = jdbc:h2:~/test
